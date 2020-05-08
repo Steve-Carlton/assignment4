@@ -37,6 +37,10 @@ h2 {
   padding: 1rem 6rem;
 }
 
+h2 span { /*every other span starting with span 2*/
+
+}
+
 p {
   margin: 0;
   padding: 0;
