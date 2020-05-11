@@ -25,13 +25,11 @@ h1 {
   padding: 0;
 }
 
-.tagline {
-  font-style: italic;
-  font-weight: 100;
-  font-size: 1.25rem;
+.taglinebox{
+
   padding-top: 8px;
 }
-/*top nav*/
+/*top nav start*/
 h2 {
   margin: 0;
   padding: 1rem 6rem;
@@ -46,18 +44,6 @@ h2 {
   padding: 1rem 6rem;
 }
 
-h2 span { /*every other span starting with span 2*/
-
-}
-
-p {
-  margin: 0;
-  padding: 0;
-
-}
-
-
-
 header nav {
   color: rgba(58, 58, 58, 1);
   font-size: .5em;
@@ -66,10 +52,30 @@ header nav {
   margin: 0;
 }
 
-p {
+.taglines {
   margin: 0;
   padding: 0;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.25rem;
 }
+/*top nav end*/
+
+main {
+  position: relative;
+  left: 6rem;
+  padding-right: 6rem;
+}
+
+h4 {
+  color: rgba(44, 154, 183, 1);
+}
+
+h6 {
+  color: rgba(58, 58, 58, 1);
+  font-weight: 400;
+}
+
 
 a, .blockquote{
   color: rgba(44, 154, 183, 1);
