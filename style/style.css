@@ -41,6 +41,23 @@ h2 span:nth-of-type(2n+2) {
   padding: 0rem 10px;
 }
 
+h2 {
+  margin: 0;
+  padding: 1rem 6rem;
+}
+
+h2 span { /*every other span starting with span 2*/
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
 header nav {
   color: rgba(58, 58, 58, 1);
   font-size: .5em;
