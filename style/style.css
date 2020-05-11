@@ -1,26 +1,57 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
+  color: rgba(58, 58, 58, 1);
+  border sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: rgba(255, 255, 255, 1);)
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0;
 }
 
-.header {
-  font-size: 1.5rem;
+.signpost {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(44, 154, 183, 1);
+  margin: 0;
+  padding: 3rem 6rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin: 0;
+  padding: 0;
 }
 
 .tagline {
   font-style: italic;
   font-weight: 100;
-  font-size: 1em;
+  font-size: 1.25rem;
+  padding-top: 8px;
+}
+/*top nav*/
+h2 {
+  margin: 0;
+  padding: 1rem 6rem;
+}
+
+h2 span:nth-of-type(2n+2) {
+  padding: 0rem 10px;
 }
 
 header nav {
   color: rgba(58, 58, 58, 1);
   font-size: .5em;
+  background-color: rgba(235, 235, 235, 1);
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 a, .blockquote{
