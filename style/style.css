@@ -61,6 +61,11 @@ header nav {
 }
 /*top nav end*/
 
+.sidebar {
+  z-index: 1;
+  float: right;
+}
+
 main {
   position: relative;
   left: 6rem;
@@ -71,7 +76,7 @@ h4 {
   color: rgba(44, 154, 183, 1);
 }
 
-h6 {
+h6, .figcaption { /*---------caption needs styling*/
   color: rgba(58, 58, 58, 1);
   font-weight: 400;
 }
@@ -85,9 +90,13 @@ a, .blockquote{
   font-weight: 100;
 }
 
+
+
+
+
 footer {
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(58, 58, 58, 1);
+  background-color: rgba(58, 58, 58, 0);
 }
 
 
