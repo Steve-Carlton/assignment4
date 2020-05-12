@@ -25,7 +25,7 @@ h1 {
   padding: 0;
 }
 
-.taglinebox{
+.taglinebox {
   padding-top: 8px;
 }
 
@@ -53,8 +53,8 @@ header nav {
   font-weight: 100;
   font-size: 1.25rem;
 }
-/*top banner end*/
 
+/*top banner end*/
 .sidebar {
   z-index: 1;
   position: relative;
@@ -88,12 +88,11 @@ figcaption, main p {
   line-height: 1.7;
 }
 
-
 h3 {
   margin: 0;
 }
 
-a, .blockcontent{
+a, .blockcontent {
   color: rgba(44, 154, 183, 1);
 }
 
@@ -109,7 +108,6 @@ a, .blockcontent{
   font-size: 12px;
 }
 
-
 footer {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(58, 58, 58, 1);
@@ -120,11 +118,10 @@ footer {
 footer nav {
   font-weight: 400;
   font-size: 10px;
-
 }
 
 footer section img {
-padding: 2rem;
+  padding: 2rem;
 }
 
 .legal {
@@ -132,8 +129,5 @@ padding: 2rem;
   padding: 1rem;
 }
 
-}
 
-
-
-/* COLORS— BLUE: 44, 154, 183 | TOP NAVBAR 235, 235, 235 | BOTTOMBAR & TYPE rgba(58, 58, 58, 1);*/
+/* COLORS— BLUE: 44, 154, 183 | TOP NAVBAR, PAGE WHITE 235, 235, 235 | BOTTOMBAR & TYPE rgba(58, 58, 58, 1);*/
