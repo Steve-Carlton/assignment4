@@ -20,16 +20,22 @@ body {
 }
 
 h1 {
-  font-size: 2.25rem;
   margin: 0;
+}
+
+h1 a {
+  margin-bottom: 0;
   padding: 0;
+  font-size: 2.25rem;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
 }
 
 .taglinebox {
   padding-top: 8px;
 }
 
-h2 span:nth-of-type(2n+2) {
+h2 span:nth-of-type(2n+1) {
   padding: 0rem 10px;
 }
 
@@ -81,6 +87,10 @@ h4 {
   margin: 0;
 }
 
+.call-to-action {
+  line-height: 3;
+}
+
 figcaption, main p {
   color: rgba(58, 58, 58, 1);
   font-weight: 500;
@@ -88,11 +98,33 @@ figcaption, main p {
   line-height: 1.7;
 }
 
+#map {
+  border-style: solid;
+  border-color: rgba(44, 154, 183, 1);
+  border-width: 5px;
+}
+
+address {
+  color: rgba(44, 154, 183, 1);
+  line-height: 1.3;
+  font-style: normal;
+}
+
 h3 {
   margin: 0;
 }
 
-a, .blockcontent {
+header nav a {
+  color: rgba(58, 58, 58, 1);
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: rgba(44, 154, 183, 1);
+}
+
+main a, .blockcontent {
   color: rgba(44, 154, 183, 1);
 }
 
@@ -128,6 +160,5 @@ footer section img {
   margin: 0;
   padding: 1rem;
 }
-
 
 /* COLORS— BLUE: 44, 154, 183 | TOP NAVBAR, PAGE WHITE 235, 235, 235 | BOTTOMBAR & TYPE rgba(58, 58, 58, 1);*/
