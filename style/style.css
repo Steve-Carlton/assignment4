@@ -1,7 +1,7 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(58, 58, 58, 1);
-  border sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ body {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(44, 154, 183, 1);
   margin: 0;
-  padding: 3rem 6rem;
+  padding: 3rem 10rem;
 }
 
 h1 {
@@ -26,13 +26,7 @@ h1 {
 }
 
 .taglinebox{
-
   padding-top: 8px;
-}
-/*top nav start*/
-h2 {
-  margin: 0;
-  padding: 1rem 6rem;
 }
 
 h2 span:nth-of-type(2n+2) {
@@ -41,7 +35,7 @@ h2 span:nth-of-type(2n+2) {
 
 h2 {
   margin: 0;
-  padding: 1rem 6rem;
+  padding: 1rem 10rem;
 }
 
 header nav {
@@ -59,44 +53,67 @@ header nav {
   font-weight: 100;
   font-size: 1.25rem;
 }
-/*top nav end*/
+/*top banner end*/
 
 .sidebar {
   z-index: 1;
+  position: relative;
   float: right;
+  max-width: 200px;
+  padding-left: 60px;
+}
+
+.centercontent {
+  max-width: 500px;
 }
 
 main {
-  position: relative;
-  left: 6rem;
-  padding-right: 6rem;
+  background-color: rgba(235, 235, 235, 0.25);
+  padding: 3rem 10rem 6rem;
+}
+
+figure {
+  margin: 0;
 }
 
 h4 {
   color: rgba(44, 154, 183, 1);
+  margin: 0;
 }
 
-h6, .figcaption { /*---------caption needs styling*/
+figcaption, main p {
   color: rgba(58, 58, 58, 1);
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.7;
 }
 
 
-a, .blockquote{
+h3 {
+  margin: 0;
+}
+
+a, .blockcontent{
   color: rgba(44, 154, 183, 1);
 }
 
-.blockquote {
+.blockquote p {
   font-weight: 100;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(44, 154, 183, 1);
 }
 
-
-
+.sidelink {
+  line-height: 4;
+  font-size: 12px;
+}
 
 
 footer {
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(58, 58, 58, 0);
+  background-color: rgba(58, 58, 58, 1);
+  /*margin-top: 150px;*/
 }
 
 
