@@ -40,7 +40,7 @@ h2 {
 
 header nav {
   color: rgba(58, 58, 58, 1);
-  font-size: .5em;
+  font-size: 8px;
   background-color: rgba(235, 235, 235, 1);
   padding: 0;
   margin: 0;
@@ -113,8 +113,27 @@ a, .blockcontent{
 footer {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(58, 58, 58, 1);
-  /*margin-top: 150px;*/
+  padding: 4rem 0rem;
+  text-align: center;
 }
+
+footer nav {
+  font-weight: 400;
+  font-size: 10px;
+
+}
+
+footer section img {
+padding: 2rem;
+}
+
+.legal {
+  margin: 0;
+  padding: 1rem;
+}
+
+}
+
 
 
 /* COLORS— BLUE: 44, 154, 183 | TOP NAVBAR 235, 235, 235 | BOTTOMBAR & TYPE rgba(58, 58, 58, 1);*/
